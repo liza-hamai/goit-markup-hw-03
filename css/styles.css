@@ -42,10 +42,10 @@ img {
     display: flex;
 }
 
-nav {
+.navigation {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 ul {
@@ -98,17 +98,15 @@ a {
     display: flex;
     gap: 40px;
     margin-left: 76px;
-    display: flex;
-    gap: 40px
+}
+
+.address {
+    font-style: normal;
 }
 
 .address-list {
   display: flex;
   gap: 40px;
-}
-
-.address {
-    font-style: normal;
 }
 
 .contacts {
