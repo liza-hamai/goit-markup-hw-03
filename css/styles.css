@@ -1,0 +1,152 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2E2F42;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17; 
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+
+.logo-dark {
+    color: #2E2F42;
+}
+
+.logo-light {
+    color: #f4f4fd;;
+}
+
+.logo-dark:hover,
+.logo-dark:focus,
+.logo-light:focus,
+.logo-light:hover {
+    color: #4D5AE5;
+}
+
+.navigation-link {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.address {
+    font-style: normal;
+}
+
+.contacts {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.navigation-link:focus,
+.navigation-link:hover,
+.contacts:hover, 
+.contacts:focus {
+    color: #404bbf;
+}
+
+.hero-banner {
+    color: #ffffff;
+    background-color: #2E2F42;
+    text-align: center;
+}
+
+.solutions {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #4D5AE5;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+
+.part-title {
+    font-size: 36px;
+    color: #2E2F42;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.part {
+    background-color: #FFFFFF;
+}
+
+.part-name {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.part-description {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+.values {
+    background-color: #FFFFFF;
+}
+
+
+#team {
+    background-color: #F4F4FD;
+}
+
+.portfolio {
+    background-color: #FFFFFF;
+}
+
+
+.footer {
+    background-color:#2E2F42;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+.footer-description {
+    color: #F4F4FD;
+}
