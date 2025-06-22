@@ -27,16 +27,19 @@ img {
 
 .container {
     max-width: 1158px;
-    padding-left: 8px;  
-    padding-right: 8px; 
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-header {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc
+}
+
+.header-elements {
+    display: flex;
 }
 
 nav {
@@ -62,6 +65,7 @@ a {
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
+    margin-right: 76px
 }
 
 .logo-dark {
@@ -94,9 +98,11 @@ a {
     display: flex;
     gap: 40px;
     margin-left: 76px;
+    display: flex;
+    gap: 40px
 }
 
-.address ul {
+.address-list {
   display: flex;
   gap: 40px;
 }
