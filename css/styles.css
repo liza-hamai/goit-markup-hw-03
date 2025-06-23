@@ -65,7 +65,9 @@ a {
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
-    margin-right: 76px
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-dark {
@@ -248,10 +250,12 @@ a {
     line-height: 24px;
     font-weight: 400;
     letter-spacing: 0.02em;
+    padding: 100px 0;
 }
 
 .footer-description {
     color: #F4F4FD;
     display: flex;
     gap: 24px;
+    max-width: 264px;
 }
