@@ -204,6 +204,7 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px; 
 }
 
 .values {
@@ -216,10 +217,18 @@ a {
   gap: 24px;
 }
 
+.first-el-list {
+    width: calc((100% - 72px) / 4);
+}
+
 .team {
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.team .part-title {
+    margin-bottom: 72px;
 }
 
 .people {
