@@ -175,6 +175,7 @@ a {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 8px;
 }
 
 .part {
@@ -224,9 +225,9 @@ a {
     width: calc((100% - 72px) / 4);
 }
 
-.values-title {
+/* .values-title {
     margin-bottom: 8px;
-}
+} */
 
 .team {
     background-color: #F4F4FD;
