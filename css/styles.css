@@ -71,9 +71,6 @@ a {
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
-    margin-right: 76px;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .logo-dark {
@@ -210,7 +207,6 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    margin-bottom: 8px; 
 }
 
 .values {
@@ -223,8 +219,12 @@ a {
   gap: 24px;
 }
 
-.first-el-list {
+.values-list-element {
     width: calc((100% - 72px) / 4);
+}
+
+.values-title {
+    margin-bottom: 8;
 }
 
 .team {
@@ -237,9 +237,29 @@ a {
     margin-bottom: 72px;
 }
 
+.team .part {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
 .people {
     display: flex;
     gap: 24px;
+}
+
+.people-role {
+    padding: 32px 0;
+}
+
+.people .part-name {
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.people .part-description {
+    text-align: center;
 }
 
 .portfolio {
@@ -273,4 +293,10 @@ a {
     display: flex;
     gap: 24px;
     max-width: 264px;
+}
+
+.lower-logo {
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
