@@ -175,7 +175,6 @@ a {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 8px;
 }
 
 .part {
@@ -225,9 +224,9 @@ a {
     width: calc((100% - 72px) / 4);
 }
 
-/* .values-title {
+.values .part-name {
     margin-bottom: 8px;
-} */
+}
 
 .team {
     background-color: #F4F4FD;
@@ -281,6 +280,10 @@ a {
     row-gap: 48px;
 }
 
+.portfolio .part-name {
+    margin-bottom: 8px;
+}
+
 .portfolio-list .part {
   width: calc((100% - 48px) / 3);  
 }
@@ -289,7 +292,7 @@ a {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+    margin-bottom: 8px
 }
 
 .footer {
