@@ -103,7 +103,6 @@ a {
 .site-nav {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
 }
 
 .address {
@@ -241,7 +240,6 @@ a {
 .team .part {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-
 }
 
 .people {
@@ -292,7 +290,6 @@ a {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px
 }
 
 .footer {
